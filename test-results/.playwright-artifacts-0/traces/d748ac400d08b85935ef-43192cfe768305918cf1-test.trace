@@ -1,0 +1,38 @@
+{"version":8,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"win32","wallTime":1760423488487,"monotonicTime":6585.888,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":6590.386,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","stepId":"hook@2","parentId":"hook@1","startTime":6591.201,"class":"Test","method":"hook","title":"beforeEach hook","params":{},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":6,"column":6}]}
+{"type":"before","callId":"fixture@28","stepId":"fixture@28","parentId":"hook@2","startTime":6605.792,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@29","stepId":"pw:api@29","parentId":"fixture@28","startTime":6613.503,"class":"Test","method":"pw:api","title":"Launch browser","params":{"handleSIGINT":"false","tracesDir":"C:\\Users\\Admin\\Desktop\\saucedemo\\test-results\\.playwright-artifacts-0\\traces","headless":"true","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined","timeout":"180000"},"stack":[]}
+{"type":"after","callId":"pw:api@29","endTime":6782.037,"annotations":[]}
+{"type":"after","callId":"fixture@28","endTime":6782.406,"annotations":[]}
+{"type":"before","callId":"fixture@32","stepId":"fixture@32","parentId":"hook@2","startTime":6785.595,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@33","stepId":"pw:api@33","parentId":"fixture@32","startTime":6788.895,"class":"Test","method":"pw:api","title":"Create context","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","deviceScaleFactor":"1","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36","viewport":"Object","baseURL":"https://www.saucedemo.com/","serviceWorkers":"allow","selectorEngines":"[]","testIdAttributeName":"data-testid","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","reducedMotion":"undefined","forcedColors":"undefined","contrast":"undefined","clientCertificates":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@33","endTime":6798.009,"annotations":[]}
+{"type":"after","callId":"fixture@32","endTime":6803.043,"annotations":[]}
+{"type":"before","callId":"fixture@34","stepId":"fixture@34","parentId":"hook@2","startTime":6803.65,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@35","stepId":"pw:api@35","parentId":"fixture@34","startTime":6805.578,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@35","endTime":7776.828,"annotations":[]}
+{"type":"after","callId":"fixture@34","endTime":7776.991,"annotations":[]}
+{"type":"before","callId":"pw:api@36","stepId":"pw:api@36","parentId":"hook@2","startTime":7779.607,"class":"Test","method":"pw:api","title":"Navigate to \"/\"","params":{"url":"/","waitUntil":"load","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":7,"column":16}]}
+{"type":"after","callId":"pw:api@36","endTime":8568.687,"annotations":[]}
+{"type":"before","callId":"pw:api@37","stepId":"pw:api@37","parentId":"hook@2","startTime":8573.204,"class":"Test","method":"pw:api","title":"Fill \"standard_user\" getByPlaceholder('Username')","params":{"selector":"internal:attr=[placeholder=\"Username\"i]","value":"standard_user","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":8,"column":45}]}
+{"type":"after","callId":"pw:api@37","endTime":8616.146,"annotations":[]}
+{"type":"before","callId":"pw:api@38","stepId":"pw:api@38","parentId":"hook@2","startTime":8624.813,"class":"Test","method":"pw:api","title":"Fill \"secret_sauce\" getByPlaceholder('Password')","params":{"selector":"internal:attr=[placeholder=\"Password\"i]","value":"secret_sauce","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":9,"column":45}]}
+{"type":"after","callId":"pw:api@38","endTime":8655.258,"annotations":[]}
+{"type":"before","callId":"pw:api@39","stepId":"pw:api@39","parentId":"hook@2","startTime":8657.951,"class":"Test","method":"pw:api","title":"Click getByText('Login')","params":{"selector":"internal:text=\"Login\"i","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":10,"column":35}]}
+{"type":"after","callId":"pw:api@39","endTime":8765.334,"annotations":[]}
+{"type":"before","callId":"expect@40","stepId":"expect@40","parentId":"hook@2","startTime":8772.38,"class":"Test","method":"expect","title":"Expect \"toHaveURL\"","params":{"expected":"/inventory.html"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":11,"column":24}]}
+{"type":"after","callId":"expect@40","endTime":8799.871,"annotations":[]}
+{"type":"after","callId":"hook@2","endTime":8799.985,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":8800.266,"annotations":[]}
+{"type":"before","callId":"pw:api@41","stepId":"pw:api@41","startTime":8805.283,"class":"Test","method":"pw:api","title":"Click locator('.inventory_item').first().locator('button')","params":{"selector":".inventory_item >> nth=0 >> button","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":348,"column":25}]}
+{"type":"after","callId":"pw:api@41","endTime":8884.98,"annotations":[]}
+{"type":"before","callId":"expect@42","stepId":"expect@42","startTime":8886.07,"class":"Test","method":"expect","title":"Expect \"toHaveText\"","params":{"expected":"1"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":350,"column":27}]}
+{"type":"after","callId":"expect@42","endTime":8898.802,"annotations":[]}
+{"type":"before","callId":"pw:api@43","stepId":"pw:api@43","startTime":8900.257,"class":"Test","method":"pw:api","title":"Click locator('#react-burger-menu-btn')","params":{"selector":"#react-burger-menu-btn","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":353,"column":48}]}
+{"type":"after","callId":"pw:api@43","endTime":8929.789,"annotations":[]}
+{"type":"before","callId":"pw:api@44","stepId":"pw:api@44","startTime":8930.819,"class":"Test","method":"pw:api","title":"Click locator('#inventory_sidebar_link')","params":{"selector":"#inventory_sidebar_link","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":356,"column":49}]}
+{"type":"after","callId":"pw:api@44","endTime":9936.78,"annotations":[]}
+{"type":"before","callId":"expect@45","stepId":"expect@45","startTime":9937.937,"class":"Test","method":"expect","title":"Expect \"toHaveURL\"","params":{"expected":"Object"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":357,"column":22}]}
+{"type":"after","callId":"expect@45","endTime":9950.12,"annotations":[]}
+{"type":"before","callId":"pw:api@46","stepId":"pw:api@46","startTime":9951.199,"class":"Test","method":"pw:api","title":"Click locator('#react-burger-menu-btn')","params":{"selector":"#react-burger-menu-btn","strict":"true","timeout":"0"},"stack":[{"file":"C:\\Users\\Admin\\Desktop\\saucedemo\\tests\\auth.spec.ts","line":360,"column":48}]}
